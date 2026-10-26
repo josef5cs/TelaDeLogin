@@ -17,7 +17,6 @@ async function verificar(){
 
     if(loginValido){
         alert("Login realizado com sucesso!");
-        window.location.href="dashboard.html"
         if(!checkBox){
             document.querySelector("#input1").value=""
             document.querySelector("#input2").value=""

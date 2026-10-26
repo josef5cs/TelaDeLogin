@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: radial-gradient(#78007a,#250025, #000000);
+    background-image: radial-gradient(#a700aa,#570057, #000000);
     min-height: 100dvh;
     background-repeat: no-repeat;
     display: flex;
@@ -23,7 +23,7 @@ body{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    background-image: radial-gradient(#440046 70%, #000000);
+    background-image: radial-gradient(#520052 50%, #000000);
     font-size: 20px;
     font-weight: 900;
     
@@ -186,7 +186,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active {
     /* Substitua #ffffff pela cor de fundo do seu input */
-    -webkit-box-shadow: 0 0 0 30px #440046 inset !important;
+    -webkit-box-shadow: 0 0 0 30px #520052 inset !important;
     /* Substitua #000000 pela cor do texto do seu input */
     -webkit-text-fill-color: #f7f3f3 !important;
 }
