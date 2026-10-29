@@ -1,4 +1,4 @@
-const url ="http://localhost:3000/cadastros"
+const url ="https://6ae3c370933120ae20f92749.mockapi.io/users"
 
 
 const loginAtual = document.querySelector("#input1")
@@ -10,8 +10,9 @@ async function verificar(){
     const dados1 = await fetch(url);
 
     const data = await dados1.json()
-
+    
     const loginValido = data.some((item) => {
+
         return item.usuario == loginAtual.value && item.senha == senhaAtual.value
     })
 

@@ -4,8 +4,7 @@ const senha2 = document.querySelector("#input3")
 const frase = document.querySelector("#input4")
 const formLogin = document.querySelector("#boxLogin")
 
-const url ="http://localhost:3000/cadastros"
-
+const url ="https://6ae3c370933120ae20f92749.mockapi.io/users"
 
 
 formLogin.addEventListener("submit", (e) => {
@@ -17,6 +16,7 @@ formLogin.addEventListener("submit", (e) => {
 
         const pegar = await fetch(url)
         const data = await pegar.json()
+
 
         const verificarEmail = data.find((item) => {
             return item.usuario == loginUsuario.value

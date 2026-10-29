@@ -3,7 +3,7 @@ const frase = document.querySelector("#input2")
 const formAtivar = document.querySelector("#boxLogin")
 const botaoAtivar = document.querySelector("#botaoLogin")
 
-const url = "http://localhost:3000/cadastros";
+const url = "https://6ae3c370933120ae20f92749.mockapi.io/users";
 
 
 botaoAtivar.addEventListener("click", async (e) => {

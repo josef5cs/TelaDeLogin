@@ -23,7 +23,7 @@ body{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(#750077 30%, #000000);
+    background-image: radial-gradient(#750077 45%, #000000);
     font-size: 20px;
     font-weight: 900;
 
@@ -214,14 +214,13 @@ body{
     color: rgb(234, 0, 255);
 }
 
-/* Altera a cor de fundo e a cor do texto do autocompletar */
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active {
     /* Substitua #ffffff pela cor de fundo do seu input */
-    -webkit-box-shadow: 0 0 0 0 #8d028f07 inset !important;
+    -webkit-box-shadow: 0 0 0 30px #78007a inset !important;
     /* Substitua #000000 pela cor do texto do seu input */
-    -webkit-text-fill-color: #000000 !important;
+    -webkit-text-fill-color: #f7f3f3 !important;
 }
 
